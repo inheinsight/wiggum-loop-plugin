@@ -18,16 +18,18 @@ This pattern has been proven on real production workloads (PDF annotation toolin
 ### 1. Install the plugin
 
 ```bash
-# Clone this repo
-git clone <repo-url> ~/Development/wiggum-loop-plugin
+git clone git@github.com:inheinsight/wiggum-loop-plugin.git ~/.claude/plugins/wiggum-loop-plugin
+```
 
-# Load it in Claude Code
-claude --plugin-dir ~/Development/wiggum-loop-plugin
+Then start Claude Code with the plugin loaded:
+
+```bash
+claude --plugin-dir ~/.claude/plugins/wiggum-loop-plugin
 ```
 
 ### 2. Scaffold a new harness
 
-In your project directory:
+Navigate to your project directory and run:
 
 ```
 /wiggum-scaffold my-project
