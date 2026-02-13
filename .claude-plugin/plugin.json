@@ -1,0 +1,6 @@
+{
+  "name": "wiggum-loop",
+  "version": "0.1.0",
+  "description": "Builder-verifier agentic loop pattern for autonomous multi-iteration tasks using the Claude Agent SDK",
+  "author": "Onboarded Engineering"
+}

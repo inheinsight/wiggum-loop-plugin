@@ -1,0 +1,17 @@
+{
+  "name": "wiggum-harness",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "./run.sh",
+    "sanity": "./run.sh --sanity-check"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.39"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.9.3"
+  }
+}
